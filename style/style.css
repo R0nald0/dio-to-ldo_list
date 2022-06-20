@@ -9,6 +9,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(184, 105, 253);
 }
 .flex-container{ 
     width: 100%;
@@ -23,6 +24,10 @@ body{
   font-size: 25px;
  margin-bottom: 20px;
 }
+.conteudo{
+    display: inline-block;
+    width: 30%;
+}
 
 .campoInput input{
     border: 1px solid blueviolet;
@@ -34,15 +39,27 @@ body{
     border-radius: 6px;
     padding: 5px 10px; 
 }
-.campoListTarefa{
-    width:40%;
-    margin-top: 10px;
-    margin-left: 27%;
+.itenTarefa {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    text-align: initial;
+    margin-top: 10px;
+}
+:checked + span{
+    text-decoration: line-through;
+    background-color:  #ccc;
+    border: 1px solid ;
+    border-radius: 5px; 
+    font-size: 18px;
 }
 
-.campoListTarefa ul{
-    list-style: none;
+span{
+    margin:  10px;
+    line-height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    
 }
+
 

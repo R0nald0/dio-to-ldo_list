@@ -13,21 +13,22 @@
         <div class="campoHeader">
             <header><h1>To-Do List</h1></header>
         </div>
-        <div class="campoInput">
-            <input type="text" id="textInout" name="inputText" placeholder="Insiria uma Tarefa">
-           <button id="idBtnadd"  name="btnAdd" >Adicionar</button>
-        </div>
+        <div class="conteudo">
+            <div class="campoInput">
+             
+                    <input type="text" name="inputText" id="descTarefa" placeholder="Insiria uma Tarefa">
+                    <button id="btn-add" type="button" onclick="adcionarNomeTarefa()">Adicionar</button>
+                
+            </div>
+    
+           
+                <div id="itnsTarefa" class="itenTarefa">
 
-        <div class="campoListTarefa">
-            <Ul>
-                <li>
-                    <input type="checkbox" id="checkTarefa" name="checkTarefa" value="tarefa">
-                    <span id="txtTarefa">tarefa 1</span>
-                </li>
-            </Ul>
+                </div>
+            
         </div>
     </div>
-
+   
 </body>
 <script src="script/script.js"></script>
 </html>
